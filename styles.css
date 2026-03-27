@@ -270,7 +270,6 @@ body {
     background: linear-gradient(135deg, var(--navy) 0%, #0e2044 50%, #163772 100%);
     display: flex;
     align-items: center;
-    padding-top: 20px;
     position: relative;
     overflow: hidden;
 }
