@@ -61,7 +61,7 @@ body {
 
 /* ─── NAV ─── */
 #navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -2034,10 +2034,6 @@ footer {
 @media (max-width: 640px) {
     section {
         padding: 72px 16px;
-    }
-
-    #hero {
-        padding: 100px 0 0 0;
     }
 
     .services-grid {
