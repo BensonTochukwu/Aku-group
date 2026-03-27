@@ -270,7 +270,7 @@ body {
     background: linear-gradient(135deg, var(--navy) 0%, #0e2044 50%, #163772 100%);
     display: flex;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 20px;
     position: relative;
     overflow: hidden;
 }
@@ -1998,7 +1998,7 @@ footer {
     .hero-inner {
         grid-template-columns: 1fr;
         gap: 40px;
-        padding: 0 24px;
+        padding: 40px 24px;
     }
 
     .hero-card {
