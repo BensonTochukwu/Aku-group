@@ -1998,7 +1998,7 @@ footer {
     .hero-inner {
         grid-template-columns: 1fr;
         gap: 40px;
-        padding: 60px 24px;
+        padding: 0 24px;
     }
 
     .hero-card {
