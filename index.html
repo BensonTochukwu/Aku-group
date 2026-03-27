@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AKU Group | Engineering, Plumbing & Maintenance Services in Lagos</title>
+  <meta name="description" content="AKU Group provides professional engineering, plumbing, marine, and building maintenance services in Lagos. Fast response, reliable service, and quality workmanship. Available 24/7." />
+  <meta name="keywords" content="engineering services Lagos, plumbing services Lagos, maintenance services Lagos, marine engineering Nigeria, building maintenance Lagos, industrial services Lagos, repair services Lagos" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="AKU Group | Engineering & Maintenance Services" />
+  <meta property="og:description" content="Reliable engineering, plumbing, and maintenance services in Lagos. Contact AKU Group for fast and professional solutions." />
+  <meta property="og:type" content="website" />
+  <meta name="geo.region" content="NG-LA" />
+  <meta name="geo.placename" content="Lagos, Nigeria" />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ═══════════════════ NAV ═══════════════════ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <div class="nav-logo-icon">
+        <svg width="120" height="120" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none">
+          <!-- Background Circle -->
+          <circle cx="50" cy="50" r="48" fill="#0f172a"/>
+
+          <!-- Letter A -->
+          <path d="M50 20 L75 80 H65 L58 65 H42 L35 80 H25 Z" fill="#38bdf8"/>
+
+          <!-- Crossbar -->
+          <rect x="42" y="55" width="16" height="5" fill="#0f172a"/>
+        </svg>
+      </div>
+      <div class="nav-logo-text">
+        AKU Group
+        <span>Engineering & Maintenance Services</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#service-areas">Areas</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-cta">
+      <a href="tel:+2349032675331" class="btn-call-nav">
+        <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+        Call Now
+      </a>
+      <a href="https://wa.me/2349032675331?text=Hello%2C%20I%20need%20engineering%20or%20maintenance%20services" target="_blank" class="btn-wa-nav">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#services" onclick="closeMenu()">Services</a>
+    <a href="#about" onclick="closeMenu()">About Us</a>
+    <a href="#testimonials" onclick="closeMenu()">Reviews</a>
+    <a href="#service-areas" onclick="closeMenu()">Areas</a>
+    <a href="#garantia" onclick="closeMenu()">Guarantee</a>
+    <a href="#faq" onclick="closeMenu()">FAQ</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+    <div class="mobile-cta">
+      <a href="tel:+2349032675331" class="btn-call-nav">
+        <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:#fff"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+        Call Now
+      </a>
+      <a href="https://wa.me/2349032675331?text=Hello%2C%20I%20need%20engineering%20or%20maintenance%20services" target="_blank" class="btn-wa-nav">
+        <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section id="inicio" id="hero">
+  <div id="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-circle-1"></div>
+  <div class="hero-circle-2"></div>
+
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-badge">
+        Services available 24/7 across Lagos
+      </div>
+
+      <h1 class="hero-h1">
+        Reliable Engineering & Maintenance Services You Can <em>Trust</em>
+      </h1>
+
+      <p class="hero-sub">
+        We provide professional plumbing, marine engineering, building maintenance, and industrial services with precision and reliability. Fast response, fair pricing, and quality workmanship guaranteed.
+      </p>
+
+      <div class="hero-trust">
+        <div class="hero-trust-item">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          500+ satisfied clients
+        </div>
+        <div class="hero-trust-item">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          Fast response time
+        </div>
+        <div class="hero-trust-item">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          Guaranteed quality service
+        </div>
+      </div>
+
+      <div class="hero-btns">
+        <a href="tel:+2349032675331" class="btn-hero-call">
+          <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          Call Now
+        </a>
+        <a href="https://wa.me/2349032675331?text=Hello%2C%20I%20need%20engineering%20or%20maintenance%20services" target="_blank" class="btn-hero-wa">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+
+      <div class="hero-emergency">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <span>Need urgent assistance? We are available <strong>24 hours, 7 days a week</strong> for plumbing, maintenance, and engineering services.</span>
+      </div>
+    </div>
+
+    <!-- Hero Card (desktop) -->
+    <div class="hero-card">
+      <div class="hero-card-header">
+        <div class="hero-card-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+        </div>
+        <div>
+          <div class="hero-card-title">AKU Group</div>
+          <div class="hero-card-sub">Verified · Lagos, Nigeria</div>
+        </div>
+      </div>
+
+      <div class="hero-stat-grid">
+        <div class="hero-stat">
+          <div class="hero-stat-num">500+</div>
+          <div class="hero-stat-label">Projects completed</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">4.9★</div>
+          <div class="hero-stat-label">Average rating</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">&lt;1h</div>
+          <div class="hero-stat-label">Response time</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">5+</div>
+          <div class="hero-stat-label">Areas covered</div>
+        </div>
+      </div>
+
+      <div class="hero-reviews">
+        <div class="hero-review-mini">
+          <div class="hero-review-stars">★★★★★</div>
+          <div class="hero-review-text">"From first contact to completion, I was very impressed with their professionalism, punctuality, and quality of work."</div>
+          <div class="hero-review-name">— Client Review</div>
+        </div>
+        <div class="hero-review-mini">
+          <div class="hero-review-stars">★★★★★</div>
+          <div class="hero-review-text">"Very reliable, friendly, and efficient. I highly recommend their services."</div>
+          <div class="hero-review-name">— Satisfied Customer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ SERVICES ═══════════════════ -->
+<section id="services">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">Our Services</div>
+      <h2 class="section-title">Complete <em>Engineering & Maintenance</em> Solutions</h2>
+      <p class="section-sub">
+        We provide reliable and professional services for residential, commercial, and industrial needs. Fast response and quality workmanship guaranteed.
+      </p>
+    </div>
+
+    <div class="services-grid">
+
+      <!-- Plumbing -->
+      <div class="service-card fade-in fade-in-delay-1">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M22.7 19.3l-6.4-6.4c.5-1.4.2-3-1-4.2-1.6-1.6-4.1-1.6-5.7 0l2.1 2.1-1.4 1.4-2.1-2.1c-1.6 1.6-1.6 4.1 0 5.7 1.2 1.2 2.8 1.5 4.2 1l6.4 6.4c.4.4 1 .4 1.4 0l2.5-2.5c.4-.4.4-1 0-1.4z"/></svg>
+        </div>
+        <div class="service-name">Plumbing Services</div>
+        <p class="service-desc">
+          Installation, repair, and maintenance of pipes, fittings, and water systems for homes and businesses.
+        </p>
+        <a href="https://wa.me/2349032675331?text=Hello%2C%20I%20need%20plumbing%20services" class="service-link" target="_blank">
+          Request Service
+        </a>
+      </div>
+
+      <!-- Building Maintenance -->
+      <div class="service-card fade-in fade-in-delay-2">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm10 8h8v-6h-8v6zM3 21h8v-6H3v6zm10-8h8V3h-8v10z"/></svg>
+        </div>
+        <div class="service-name">Building Maintenance</div>
+        <p class="service-desc">
+          General maintenance, repairs, and facility management for residential and commercial properties.
+        </p>
+        <a href="https://wa.me/2349032675331?text=Hello%2C%20I%20need%20building%20maintenance%20services" class="service-link" target="_blank">
+          Request Service
+        </a>
+      </div>
+
+      <!-- Engineering Services -->
+      <div class="service-card fade-in fade-in-delay-3">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M13 2l-2 7h4l-2 13 2-7h-4l2-13z"/></svg>
+        </div>
+        <div class="service-name">Engineering Services</div>
+        <p class="service-desc">
+          Professional engineering solutions for installations, system repairs, and technical support.
+        </p>
+        <a href="https://wa.me/2349032675331?text=Hello%2C%20I%20need%20engineering%20services" class="service-link" target="_blank">
+          Request Service
+        </a>
+      </div>
+
+      <!-- Marine Services -->
+      <div class="service-card fade-in fade-in-delay-1">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M3 18h18v2H3v-2zm9-16l5 6h-3v6h-4V8H7l5-6z"/></svg>
+        </div>
+        <div class="service-name">Marine Services</div>
+        <p class="service-desc">
+          Maintenance and support services for marine equipment and related systems.
+        </p>
+        <a href="https://wa.me/2349032675331?text=Hello%2C%20I%20need%20marine%20services" class="service-link" target="_blank">
+          Request Service
+        </a>
+      </div>
+
+      <!-- Installation & Repairs -->
+      <div class="service-card fade-in fade-in-delay-2">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2l4 4-8 8-4-4 8-8zm6.71 6.29l-1.42-1.42-2.29 2.29 1.42 1.42 2.29-2.29zM3 17.25V21h3.75l11-11-3.75-3.75-11 11z"/></svg>
+        </div>
+        <div class="service-name">Installation & Repairs</div>
+        <p class="service-desc">
+          Expert installation and repair of equipment, fixtures, and systems with long-lasting results.
+        </p>
+        <a href="https://wa.me/2349032675331?text=Hello%2C%20I%20need%20installation%20or%20repair%20services" class="service-link" target="_blank">
+          Request Service
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ TRUST BAR ═══════════════════ -->
+<div class="carousel">
+  <div class="slides">
+    <img class="slide active" src="images/1.png" />
+    <img class="slide" src="images/2.png" />
+    <img class="slide" src="images/3.png" />
+    <img class="slide" src="images/4.png" />
+    <img class="slide" src="images/5.png" />
+    <img class="slide" src="images/6.png" />
+    <img class="slide" src="images/7.png" />
+    <img class="slide" src="images/8.png" />
+    <img class="slide" src="images/9.png" />
+    <img class="slide" src="images/10.png" />
+  </div>
+
+  <!-- Arrows -->
+  <button class="arrow prev">&#10094;</button>
+  <button class="arrow next">&#10095;</button>
+
+  <!-- Dots -->
+  <div class="dots"></div>
+</div>
+
+<!-- ═══════════════════ WHY US ═══════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">Why Choose Us?</div>
+      <h2 class="section-title">The Difference Between a <em>Good Service</em> Provider and the Best</h2>
+      <p class="section-sub">Aku group provides reliable construction, plumbing, and building maintenance services. Our clients trust us because we deliver consistent quality, professionalism, and long-term solutions.</p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-features">
+        <div class="why-feature fade-in">
+          <div class="why-feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+          </div>
+          <div>
+            <div class="why-feature-title">Reliable and On-Time Service</div>
+            <p class="why-feature-text">We respond promptly to service requests and ensure all maintenance, plumbing, and construction tasks are completed on schedule without delays.</p>
+          </div>
+        </div>
+
+        <div class="why-feature fade-in fade-in-delay-1">
+          <div class="why-feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+          </div>
+          <div>
+            <div class="why-feature-title">Skilled and Certified Professionals</div>
+            <p class="why-feature-text">Our team consists of experienced technicians and engineers trained in plumbing, construction, and facility maintenance standards.</p>
+          </div>
+        </div>
+
+        <div class="why-feature fade-in fade-in-delay-2">
+          <div class="why-feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M11.5 2C6.81 2 3 5.81 3 10.5S6.81 19 11.5 19h.5v3c4.86-2.34 8-7 8-11.5C20 5.81 16.19 2 11.5 2zm1 14.5h-2v-2h2v2zm0-4h-2c0-3.25 3-3 3-5 0-1.1-.9-2-2-2s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 2.5-3 2.75-3 5z"/></svg>
+          </div>
+          <div>
+            <div class="why-feature-title">Transparent Pricing & Clear Communication</div>
+            <p class="why-feature-text">We provide clear quotations before starting any work. No hidden charges—just honest and straightforward pricing.</p>
+          </div>
+        </div>
+
+        <div class="why-feature fade-in fade-in-delay-3">
+          <div class="why-feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.11 0-2 .89-2 2v12c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/></svg>
+          </div>
+          <div>
+            <div class="why-feature-title">Quality Materials & Long-Term Solutions</div>
+            <p class="why-feature-text">We use durable, industry-standard materials for all installations and repairs to ensure lasting performance and reliability.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="why-visual fade-in fade-in-delay-1">
+        <div class="why-visual-bg"></div>
+        <div class="why-visual-content">
+          <h3>What Every Service Includes</h3>
+          <ul class="why-checklist">
+            <li>Detailed inspection and assessment of the issue</li>
+            <li>Clear and fixed quotation before work begins</li>
+            <li>Professional tools and approved materials</li>
+            <li>Clean and safe work environment during service</li>
+            <li>Full system testing after completion</li>
+            <li>Workmanship warranty on completed services</li>
+            <li>Maintenance advice and recommendations</li>
+            <li>Professional and respectful customer service</li>
+          </ul>
+          <div class="why-cta-box">
+            <p>Need reliable maintenance or repair services today?</p>
+            <a href="tel:+2349032675331">
+              <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:#fff"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+              Call Now — Fast Response
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ TESTIMONIALS ═══════════════════ -->
+<section id="testimonials">
+  <div class="container">
+    <div class="testimonials-header fade-in">
+      <div class="section-label" style="justify-content:center">What Our Clients Say</div>
+      <h2 class="section-title">Real Reviews from <em>Satisfied Clients</em></h2>
+
+      <div class="stars-row">
+        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+      </div>
+
+      <p class="section-sub">
+        Trusted by hundreds of clients across Lagos. See why people choose AKU Group for reliable service.
+      </p>
+    </div>
+
+    <div class="testimonials-slider">
+      <div class="testimonials-track" id="testimonials-track">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "From first contact to completion, the experience was excellent. Very professional, punctual, and the quality of work was top-notch. Highly recommended."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">EO</div>
+            <div>
+              <div class="testimonial-name">Emeka Okafor</div>
+              <div class="testimonial-role">Verified Client · Lagos</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "They responded quickly and handled the job efficiently. Very reliable and easy to work with. I will definitely use their services again."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AA</div>
+            <div>
+              <div class="testimonial-name">Aisha Abdullahi</div>
+              <div class="testimonial-role">Verified Client · Lagos</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Professional team with great attention to detail. They diagnosed the issue quickly and fixed it the same day. Very impressed."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">TC</div>
+            <div>
+              <div class="testimonial-name">Tunde Cole</div>
+              <div class="testimonial-role">Verified Client · Lagos</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Excellent service and great communication throughout. They arrived on time and completed the work neatly. Highly satisfied."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">UC</div>
+            <div>
+              <div class="testimonial-name">Uche Chinedu</div>
+              <div class="testimonial-role">Verified Client · Lagos</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="slider-controls-row">
+      <div class="slider-arrows">
+        <button class="slider-arrow" onclick="slidePrev()" aria-label="Previous">
+          <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+        </button>
+        <button class="slider-arrow" onclick="slideNext()" aria-label="Next">
+          <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+        </button>
+      </div>
+      <div class="slider-controls" id="slider-dots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ AREAS ═══════════════════ -->
+<section id="service-areas">
+  <div class="container">
+    <div class="areas-inner">
+      <div class="areas-left fade-in">
+        <div class="section-label">Service Coverage</div>
+        <h2 class="section-title">Professional Services Across <em>Lagos & Surrounding Areas</em></h2>
+        <p class="section-sub">
+          We provide fast and reliable engineering and maintenance services across Lagos and nearby locations. Quick response with no hidden charges.
+        </p>
+
+        <div class="areas-grid" style="margin-top:32px">
+
+          <div class="area-tag">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            Lagos Island
+          </div>
+
+          <div class="area-tag">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            Lekki
+          </div>
+
+          <div class="area-tag">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            Ikeja
+          </div>
+
+          <div class="area-tag">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            Surulere
+          </div>
+
+          <div class="area-tag">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            Yaba
+          </div>
+
+          <div class="area-tag" style="opacity:.6;cursor:default">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            And more...
+          </div>
+
+        </div>
+
+        <div style="margin-top:28px">
+          <a href="tel:+2349032675331"
+            style="display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;font-family:var(--font-head);font-size:.9rem;font-weight:700;padding:14px 24px;border-radius:var(--radius-sm);text-decoration:none;transition:all .2s;box-shadow:0 4px 16px rgba(20,85,245,.4)">
+            
+            <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:#fff">
+              <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1z"/>
+            </svg>
+
+            Check availability in your area
+          </a>
+        </div>
+      </div>
+
+      <div class="map-placeholder fade-in fade-in-delay-1">
+        <iframe
+          src="https://www.google.com/maps?q=Lagos,Nigeria&output=embed"
+          allowfullscreen
+          loading="lazy"
+          title="Service coverage map Lagos">
+        </iframe>
+
+        <div class="map-overlay">
+          <div class="map-cta">
+            <svg viewBox="0 0 24 24" style="width:16px;height:16px;fill:#60a5fa">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+            </svg>
+            Coverage across Lagos and nearby areas
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ FAQ ═══════════════════ -->
+<section id="faq">
+  <div class="container">
+    <div class="fade-in" style="text-align:center">
+      <div class="section-label" style="justify-content:center">Frequently Asked Questions</div>
+      <h2 class="section-title">Answers to Common <em>Questions</em></h2>
+      <p class="section-sub" style="margin:0 auto">
+        Here are some of the most common questions about our engineering and maintenance services.
+      </p>
+    </div>
+
+    <div class="faq-grid" style="margin-top:56px">
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            How much does your service cost?
+            <div class="faq-toggle"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div>
+          </div>
+          <div class="faq-a">
+            The cost depends on the type of service required. Simple repairs are usually affordable, while more complex installations may vary in price. We always provide a free quote before starting any job.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Do you handle emergency services?
+            <div class="faq-toggle"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div>
+          </div>
+          <div class="faq-a">
+            Yes, we offer emergency services. If you have an urgent issue, contact us immediately and we’ll respond as quickly as possible.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            How long does a typical job take?
+            <div class="faq-toggle"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div>
+          </div>
+          <div class="faq-a">
+            Most standard jobs are completed within a few hours. Larger or more technical projects may take longer, but we always provide a clear time estimate before starting.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Do you provide materials for the job?
+            <div class="faq-toggle"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div>
+          </div>
+          <div class="faq-a">
+            Yes, we can supply high-quality materials if needed. All costs are clearly explained in your quote so there are no surprises.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Do your services come with a warranty?
+            <div class="faq-toggle"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div>
+          </div>
+          <div class="faq-a">
+            Yes, we stand behind our work. We offer a service guarantee to ensure your issue is properly resolved.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Which areas do you cover?
+            <div class="faq-toggle"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div>
+          </div>
+          <div class="faq-a">
+            We operate across Lagos and nearby areas including Lekki, Ikeja, Yaba, Surulere, and more. Contact us to confirm availability in your location.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Can I request a service via WhatsApp?
+            <div class="faq-toggle"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div>
+          </div>
+          <div class="faq-a">
+            Absolutely. You can reach us via WhatsApp, call, or this website. You can even send photos or videos for a quick assessment.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CTA BOX -->
+      <div class="faq-cta-box fade-in fade-in-delay-1">
+        <h3>Still have questions?</h3>
+        <p>
+          Our team is ready to assist you immediately. No delays, no stress — just fast and reliable support.
+        </p>
+
+        <div class="faq-cta-btns">
+          <a href="tel:+2349032675331" class="call">
+            Call Now
+          </a>
+
+          <a href="https://wa.me/2349032675331?text=Hello%2C%20I%20have%20a%20question" target="_blank" class="wa">
+            Chat on WhatsApp
+          </a>
+        </div>
+
+        <div style="margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1)">
+          <p style="color:#60a5fa;font-family:var(--font-head);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px">
+            Working Hours
+          </p>
+
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <div style="display:flex;justify-content:space-between;font-size:.85rem;color:#94a3b8">
+              <span>Monday – Friday</span><span style="color:#e2e8f0">8:00 AM – 6:00 PM</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;font-size:.85rem;color:#94a3b8">
+              <span>Saturday</span><span style="color:#e2e8f0">9:00 AM – 4:00 PM</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;font-size:.85rem;color:#94a3b8">
+              <span>Sunday</span><span style="color:#4ade80">Emergency Only</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ CONTACT ═══════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="fade-in" style="text-align:center">
+      <div class="section-label" style="justify-content:center">Contact Us</div>
+      <h2 class="section-title">Request Your Service <em>Now</em></h2>
+      <p class="section-sub" style="margin:0 auto">
+        Call, chat on WhatsApp, or fill the form. We respond within minutes with a free quote.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info fade-in">
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          </div>
+          <div>
+            <div class="contact-info-title">Phone Number</div>
+            <div class="contact-info-val"><a href="tel:+2349032675331">+234 903 267 5331</a></div>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon" style="background:#25d366">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </div>
+          <div>
+            <div class="contact-info-title">WhatsApp</div>
+            <div class="contact-info-val"><a href="https://wa.me/2349032675331" target="_blank">+234 903 267 5331</a></div>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </div>
+          <div>
+            <div class="contact-info-title">Email</div>
+            <div class="contact-info-val"><a href="mailto:info@plomeria.com">contact@akugroup.com</a></div>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <div>
+            <div class="contact-info-title">Location</div>
+            <div class="contact-info-val">Lagos, Nigeria<br><span style="font-size:.82rem;color:var(--gray-400)">We cover major areas in Lagos</span></div>
+          </div>
+        </div>
+
+        <div style="background:var(--sky);border-radius:var(--radius);padding:24px;border:1.5px solid rgba(20,85,245,.15)">
+          <p style="font-family:var(--font-head);font-size:.85rem;font-weight:700;color:var(--blue);margin-bottom:8px">⚡ Fast Response Guaranteed</p>
+          <p style="font-size:.85rem;color:var(--gray-600);line-height:1.6">We reply within 15 minutes during working hours. Emergency services are available 24/7.</p>
+        </div>
+      </div>
+
+      <div class="contact-form-box fade-in fade-in-delay-1">
+        <div class="form-title">Request Free Quote</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" id="f-name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label>Phone / WhatsApp *</label>
+            <input type="tel" id="f-phone" placeholder="0800 000 0000" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Location *</label>
+          <input type="text" id="f-location" placeholder="e.g. Lekki, Lagos" required />
+        </div>
+        <div class="form-group">
+          <label>Service Needed?</label>
+          <select id="f-service">
+            <option value="">Select service...</option>
+            <option>General Repairs & Maintenance</option>
+            <option>Plumbing Services</option>
+            <option>Electrical Services</option>
+            <option>Installation Services (Appliances / Fixtures)</option>
+            <option>Home & Office Maintenance</option>
+            <option>Technical Support / Inspection</option>
+            <option>Emergency Repair Service</option>
+            <option>Renovation / Minor Construction</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Describe the issue (optional)</label>
+          <textarea id="f-msg" placeholder="Briefly explain your issue..."></textarea>
+        </div>
+        <button class="form-submit" onclick="submitForm()">
+          <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+          Send Request
+        </button>
+        <p class="form-note">You can also call or message us directly for faster response.</p>
+        <div id="form-success">✅ Request sent! We’ll contact you shortly.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer>
+  <div class="footer-grid">
+    
+    <!-- BRAND -->
+    <div class="footer-brand">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">
+          <svg width="120" height="120" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none">
+          <!-- Background Circle -->
+          <circle cx="50" cy="50" r="48" fill="#0f172a"/>
+
+          <!-- Letter A -->
+          <path d="M50 20 L75 80 H65 L58 65 H42 L35 80 H25 Z" fill="#38bdf8"/>
+
+          <!-- Crossbar -->
+          <rect x="42" y="55" width="16" height="5" fill="#0f172a"/>
+        </svg>
+        </div>
+        <div class="nav-logo-text" style="color:#e2e8f0">
+          Aku Group
+          <span>Professional Services · Nigeria</span>
+        </div>
+      </a>
+
+      <p>
+        Aku Group provides reliable home and commercial services across Nigeria. 
+        From plumbing and maintenance to installations and repairs, we deliver 
+        quality, speed, and professionalism you can trust.
+      </p>
+
+      <div class="footer-socials">
+        <a href="#" class="footer-social" aria-label="Facebook">
+          <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+
+        <a href="https://wa.me/2349032675331" class="footer-social" aria-label="WhatsApp" target="_blank">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.520-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.510-.173-.008-.371-.010-.570-.010-.198 0-.520.074-.792.372-.272.297-1.040 1.016-1.040 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.200 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.360.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.570-.347z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Plumbing Services</a></li>
+        <li><a href="#services">Pipe Repairs & Installation</a></li>
+        <li><a href="#services">Drain & Blockage Solutions</a></li>
+        <li><a href="#services">Home Maintenance</a></li>
+        <li><a href="#services">Electrical Fixes</a></li>
+        <li><a href="#services">General Repairs</a></li>
+        <li><a href="#services">Installations</a></li>
+        <li><a href="#services">Emergency Services</a></li>
+      </ul>
+    </div>
+
+    <!-- AREAS -->
+    <div class="footer-col">
+      <h4>Coverage</h4>
+      <ul>
+        <li><a href="#service-areas">Lagos</a></li>
+        <li><a href="#service-areas">Abuja</a></li>
+        <li><a href="#service-areas">Port Harcourt</a></li>
+        <li><a href="#service-areas">Ibadan</a></li>
+        <li><a href="#service-areas">Nearby Areas</a></li>
+      </ul>
+    </div>
+
+    <!-- COMPANY -->
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#faq">FAQs</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="tel:+2349032675331">Call Now</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <p>© 2026 <span>Aku Group</span>. All rights reserved. Nigeria.</p>
+    <p style="color:#334155;font-size:.75rem">
+      Plumbing · Home Repairs · Installations · Maintenance · 24/7 Services
+    </p>
+  </div>
+</footer>
+
+<!-- ═══════════════════ FLOATING BUTTONS ═══════════════════ -->
+<a href="https://wa.me/2349032675331?text=Hello%2C%20I%20need%20engineering%20or%20maintenance%20services" target="_blank" class="float-wa" aria-label="WhatsApp">
+  <div class="float-wa-tooltip">Escribir por WhatsApp</div>
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<a href="tel:+2349032675331" class="float-call" aria-label="Llamar">
+  <div class="float-call-tooltip">Llamar Ahora</div>
+  <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
