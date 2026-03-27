@@ -630,6 +630,11 @@ section {
   padding: 0;
 }
 
+#slideshow{
+    padding: 45px 24px;
+    background-color: #0e2044;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
